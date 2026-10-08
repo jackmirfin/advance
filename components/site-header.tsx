@@ -65,15 +65,15 @@ export function SiteHeader() {
           className="inline-flex min-w-0 shrink-0 items-center"
           onClick={closeMenu}
         >
-          <Image
-            src={brandAssets.logo}
-            alt="Advance Gardens"
-            width={320}
-            height={100}
-            priority
-            sizes="(min-width: 640px) 208px, 160px"
-            className="h-10 w-40 object-contain object-left sm:h-12 sm:w-52"
-          />
+        <Image
+          src={brandAssets.logo}
+          alt="Advance Gardens"
+          width={480}
+          height={150}
+          priority
+          sizes="(min-width: 640px) 312px, 240px"
+          className="h-[60px] w-60 object-contain object-left sm:h-[72px] sm:w-[312px]"
+        />
         </Link>
 
         <div className="hidden items-center gap-7 lg:flex">
