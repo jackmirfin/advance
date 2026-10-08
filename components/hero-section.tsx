@@ -75,9 +75,6 @@ export function HeroSection() {
             </Link>
           </div>
 
-          <p className="mt-6 text-sm text-[#F7F3EA]/70">
-            Free initial site visit
-          </p>
         </motion.div>
       </div>
     </section>
